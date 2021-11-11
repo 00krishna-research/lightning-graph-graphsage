@@ -1,0 +1,9 @@
+_target_: src.models.graphsage_model.GraphSAGELitModel
+
+in_channels: 602 
+out_channels: 41
+hidden_channels: 256
+num_layers: 2
+dropout: 0.5
+lr: 0.001
+weight_decay: 0.0005
